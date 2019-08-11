@@ -33,9 +33,16 @@ console.log('Problem 1:')
 
 // Add your code below this line
 
+let salary = 50000 // INSERT SALARY
+let yearsOfService = 6 // INSERT YEARS OF SERVICE
+let bonus
+
+
+yearsOfService > 5 ? bonus = salary * .05 : bonus = 0
+
 // Add your code above this line
 
-console.log('')
+console.log(`You get a $${bonus} bonus`)
 console.log('-----------------')
 /***********
 
@@ -57,7 +64,7 @@ Use the following test cases to confirm your program meets the success criteria
 2. Given the following:
     problem1Numbers = [9, 18, 62, 3, 17]
 
-   Result: 0
+   Result: 21.8
 
 ************/
 
@@ -65,9 +72,19 @@ console.log('Problem 2:')
 
 // Add your code below this line
 
+let numbers = [1, 2, 3] // INSERT NUMBERS
+let sum = 0
+let average
+
+numbers.forEach(function(number) {
+  sum = sum + number
+})
+
+average = sum / numbers.length
+
 // Add your code above this line
 
-console.log('')
+console.log(`The average is ${average}`)
 console.log('-----------------')
 
 /***********
@@ -104,6 +121,18 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 3:')
 
 // Add your code below this line
+
+for (let i = 0; i < 11; i++) { 
+  if ((i % 3 === 0) && (i % 5 === 0)) {
+    console.log('fizzbuzz')
+  } else if (i % 3 === 0) {
+    console.log('fizz')
+  } else if (i % 5 === 0) {
+    console.log('buzz')
+  } else {
+    console.log(i)
+  }
+}
 
 // Add your code above this line
 
