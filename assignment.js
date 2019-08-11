@@ -33,8 +33,8 @@ console.log('Problem 1:')
 
 // Add your code below this line
 
-let salary = 50000 // INSERT SALARY
-let yearsOfService = 6 // INSERT YEARS OF SERVICE
+let salary = 50000 // INSERT ANY SALARY
+let yearsOfService = 6 // INSERT ANY NUMBER OF YEARS
 let bonus
 
 
@@ -72,7 +72,7 @@ console.log('Problem 2:')
 
 // Add your code below this line
 
-let numbers = [1, 2, 3] // INSERT NUMBERS
+let numbers = [1, 2, 3] // INSERT ANY NUMBERS
 let sum = 0
 let average
 
@@ -137,6 +137,5 @@ for (let i = 0; i < 11; i++) {
 // Add your code above this line
 
 /** added for formatting purposes **/
-console.log('')
 console.log('-----------------')
 
