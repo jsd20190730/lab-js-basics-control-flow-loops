@@ -33,9 +33,16 @@ console.log('Problem 1:')
 
 // Add your code below this line
 
+let yearsOfService = 6
+let salary = 100000
+let netBonus
+
+if (yearsOfService > 5) {
+  netBonus = salary * 0.05
+}
 // Add your code above this line
 
-console.log('')
+console.log(netBonus)
 console.log('-----------------')
 /***********
 
@@ -57,7 +64,7 @@ Use the following test cases to confirm your program meets the success criteria
 2. Given the following:
     problem1Numbers = [9, 18, 62, 3, 17]
 
-   Result: 0
+   Result: 21.8
 
 ************/
 
@@ -65,9 +72,20 @@ console.log('Problem 2:')
 
 // Add your code below this line
 
+let numbers = [9, 18, 62, 3, 17]
+let average = 0
+let indexTotal = 0
+
+numbers.forEach(function(element, index) {
+  average = average + element
+  indexTotal++
+})
+
+average = average/indexTotal
+
 // Add your code above this line
 
-console.log('')
+console.log(average)
 console.log('-----------------')
 
 /***********
@@ -101,13 +119,26 @@ Use the following test cases to confirm your program meets the success criteria
    buzz
 
 ************/
+// Add your code below this line
 console.log('Problem 3:')
 
-// Add your code below this line
+let whenFizz = "fizz"
+let whenBuzz = "buzz"
+let whenFizzBuzz = "fizzbuzz"
 
+for (let i = 0; i <= 100; i++) {
+  if (i%3 === 0 && i%5 === 0) {
+    console.log(whenFizzBuzz)
+  } else if (i%5 === 0) {
+    console.log(whenBuzz)
+  } else if (i%3 === 0){
+    console.log(whenFizz)
+  } else {
+    console.log(i)
+  }
+}
 // Add your code above this line
 
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
