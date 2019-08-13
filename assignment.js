@@ -98,7 +98,7 @@ Use the following test cases to confirm your program meets the success criteria
 1. Given the following:
 
    Expected Result:
-   0
+   fizzbuzz
    1
    2
    fizz
@@ -115,6 +115,7 @@ console.log('Problem 3:')
 
 // Add your code below this line
 
+console.log('I do not know!!!')
 // Add your code above this line
 
 /** added for formatting purposes **/
