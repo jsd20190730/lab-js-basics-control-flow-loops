@@ -33,6 +33,16 @@ console.log('Problem 1:')
 
 // Add your code below this line
 
+let yearsOfService = 5
+let salary = 90000
+let netBonus = 0
+
+if (yearsOfService > 5) {
+  netBonus = salary * 0.05
+}
+
+console.log(netBonus)
+
 // Add your code above this line
 
 console.log('')
@@ -88,7 +98,7 @@ Use the following test cases to confirm your program meets the success criteria
 1. Given the following:
 
    Expected Result:
-   0
+   fizzbuzz
    1
    2
    fizz
@@ -105,9 +115,9 @@ console.log('Problem 3:')
 
 // Add your code below this line
 
+console.log('I do not know!!!')
 // Add your code above this line
 
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
