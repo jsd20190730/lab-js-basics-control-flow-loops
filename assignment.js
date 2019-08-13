@@ -32,7 +32,14 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 1:')
 
 // Add your code below this line
+let yearsOfService = 5
+let salary = 90000
+let netBonus = 0
 
+if (yearsOfService > 5) {
+  netBonus =salary * .05
+}
+console.log(netBonus)
 // Add your code above this line
 
 console.log('')
@@ -57,13 +64,21 @@ Use the following test cases to confirm your program meets the success criteria
 2. Given the following:
     problem1Numbers = [9, 18, 62, 3, 17]
 
-   Result: 0
+   Result: 21.8
 
 ************/
+
 
 console.log('Problem 2:')
 
 // Add your code below this line
+let numArray = [9, 18, 62, 3, 17]
+  let sum = 0
+  numArray.forEach(function(numArray) {
+    sum += numArray
+  })
+  console.log(sum / numArray.length)
+
 
 // Add your code above this line
 
@@ -104,10 +119,25 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 3:')
 
 // Add your code below this line
+for (let i=1; i < 101; i++){
+  if (i % 15 == 0)
+  console.log("FizzBuzz")
+
+  else if (i % 3 == 0)
+  console.log("Fizz")
+
+  else if (i % 5 == 0)
+  console.log("Buzz")
+
+  else
+  console.log(i)
+}
+
+
+
 
 // Add your code above this line
 
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
