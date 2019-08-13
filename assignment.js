@@ -135,4 +135,5 @@ for (var num = 0; num < 10; num++)
 
 /** added for formatting purposes **/
 console.log('')
+console.log('test')
 console.log('-----------------')
