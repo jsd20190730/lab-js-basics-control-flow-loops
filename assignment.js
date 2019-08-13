@@ -119,14 +119,14 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 3:')
 
 // Add your code below this line
-for (let i=1; i < 101; i++){
-  if (i % 15 == 0)
+for (let i=0; i < 101; i++){
+  if (i % 15 === 0)
   console.log("FizzBuzz")
 
-  else if (i % 3 == 0)
+  else if (i % 3 === 0)
   console.log("Fizz")
 
-  else if (i % 5 == 0)
+  else if (i % 5 === 0)
   console.log("Buzz")
 
   else
