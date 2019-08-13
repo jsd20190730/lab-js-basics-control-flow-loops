@@ -120,9 +120,7 @@ console.log('Problem 3:')
 for (let number = 0; number <= 100; number++){
   let isDiv3 = number % 3
   let isDiv5 = number % 5
-  if (number === 0){
-    console.log(number)
-  }
+
   else if (isDiv3 === 0 & isDiv5 === 0){
     console.log("fizzbuzz")
   }
