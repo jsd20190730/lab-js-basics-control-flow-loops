@@ -33,6 +33,16 @@ console.log('Problem 1:')
 
 // Add your code below this line
 
+let yearsOfService = 5
+let salary = 90000
+let netBonus = 0
+
+if (yearsOfService > 5) {
+  netBonus = salary * 0.05
+}
+
+console.log(netBonus)
+
 // Add your code above this line
 
 console.log('')
@@ -110,4 +120,3 @@ console.log('Problem 3:')
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
