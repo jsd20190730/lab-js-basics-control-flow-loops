@@ -32,6 +32,11 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 1:')
 
 // Add your code below this line
+let salary = 50000
+let yearsOfService = 6
+console.log(`Salary is ${salary} and Years of Service is ${yearsOfService}`)
+let bonus = (yearsOfService > 5) ? (salary * .05) : 0
+console.log(`Bonus is ${bonus}`)
 
 // Add your code above this line
 
@@ -64,6 +69,14 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 2:')
 
 // Add your code below this line
+let numbers = [1,2,3]
+console.log(`Numbers are ${numbers}`)
+let sum = 0
+numbers.forEach(function(element,index){
+  sum = sum + element
+})
+average = sum/(numbers.length)
+console.log(`Average is ${average}`)
 
 // Add your code above this line
 
@@ -104,10 +117,25 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 3:')
 
 // Add your code below this line
+for (let number = 0; number <= 100; number++){
+  let isDiv3 = number % 3
+  let isDiv5 = number % 5
 
+  else if (isDiv3 === 0 & isDiv5 === 0){
+    console.log("fizzbuzz")
+  }
+  else if (isDiv3 === 0){
+    console.log("fizz")
+  }
+  else if (isDiv5 === 0){
+    console.log("buzz")
+  }
+  else{
+    console.log(number)
+  }
+}
 // Add your code above this line
 
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
