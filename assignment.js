@@ -43,25 +43,6 @@ if(yearsOfServiceOne > 5) {
 
 console.log(netBonusOne)
 
-let salaryTwo = 90000
-let yearsOfServiceTwo = 5
-let netBonusTwo = 0
-
-if(yearsOfServiceTwo > 5) {
-  netBonusTwo = salaryTwo * 0.05
-}
-
-console.log(netBonusTwo)
-
-let salaryThree = 83000
-let yearsOfServiceThree = 9
-let netBonusThree = 0
-
-if(yearsOfServiceThree > 5) {
-  netBonusThree = salaryThree * 0.05
-}
-
-console.log(netBonusThree)
 
 // Add your code above this line
 
@@ -99,12 +80,6 @@ let sum = values.reduce((previous, current) => current += previous);
 let avg = sum / values.length;
 
 console.log(avg)
-
-let values2 = [9, 18, 62, 3, 17]
-let sum2 = values2.reduce((previous, current) => current += previous);
-let avg2 = sum2 / values2.length;
-
-console.log(avg2)
 
 // Add your code above this line
 
