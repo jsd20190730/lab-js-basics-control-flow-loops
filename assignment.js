@@ -75,12 +75,19 @@ console.log('Problem 2:')
 
 // Add your code below this line
 
-let problem1Numbers = [1, 2, 3]
+// create array
+// add numbers in array
+// find average of numbers
+// return numbers
 
-problem1Numbers.forEach(function(number) {
-  addedNumbers = (number)
-  console.log(addedNumbers)
-})
+let problemNumbers = [1, 2, 3]
+let total = 0
+
+for (i = 0; i < problemNumbers.length; i++) {
+  total += (problemNumbers[i]) / problemNumbers.length
+}
+
+console.log(`The average of our array is: ${total}`)
 
 // Add your code above this line
 
@@ -123,17 +130,20 @@ console.log('Problem 3:')
 // Add your code below this line
 
 for (var num = 0; num < 10; num++)
-  if (num % 3) {
+  if (num % 3 == 0 && num % 5 == 0) {
+    console.log("fizzbuzz")
+  } else if (num % 3 == 0) {
     console.log("fizz")
-  } else if (num % 5) {
+  } else if (num % 5 == 0) {
     console.log("buzz")
   } else {
     console.log(`${num}`)
   }
 
+// omg i finally got it
+
 // Add your code above this line
 
 /** added for formatting purposes **/
 console.log('')
-console.log('test')
 console.log('-----------------')
