@@ -1,7 +1,8 @@
 /***********
 
 Problem 1:
-A company decided to give bonus of 5% to an employee if his/her year of service is more than 5 years. Given a salary and year of service and print the net bonus amount.
+A company decided to give bonus of 5% to an employee if his/her year of service is more than 5 years.
+Given a salary and year of service and print the net bonus amount.
 
 Variables Required (feel free to add your own variables if needed):
 salary (number)
@@ -33,6 +34,15 @@ console.log('Problem 1:')
 
 // Add your code below this line
 
+
+if (yearsOfService > 5) {
+  netBonus = salary * 0.05
+}
+
+console.log(netBonus)
+
+
+
 // Add your code above this line
 
 console.log('')
@@ -57,13 +67,21 @@ Use the following test cases to confirm your program meets the success criteria
 2. Given the following:
     problem1Numbers = [9, 18, 62, 3, 17]
 
-   Result: 0
+   Result: 21.8
 
 ************/
 
 console.log('Problem 2:')
 
 // Add your code below this line
+
+let numbers = [a,b,c]
+
+function average(numbers) {
+    return numbers.reduce((a,b,c) => a + b + c) / numbers.length;
+}
+
+console.log(average)
 
 // Add your code above this line
 
@@ -88,7 +106,7 @@ Use the following test cases to confirm your program meets the success criteria
 1. Given the following:
 
    Expected Result:
-   0
+   fizzbuzz
    1
    2
    fizz
@@ -104,10 +122,23 @@ Use the following test cases to confirm your program meets the success criteria
 console.log('Problem 3:')
 
 // Add your code below this line
+let oneToHundredArray = []
 
+for (let value = 1; value <= 100; value++) {
+  oneToHundredArray.push(value)
+}
+
+if (value % 3 === 0) {
+  console.log ("fizz")
+} else if (value % 5 === 0) {
+  console.log ("buzz")
+} else if (value % 3 === 0 && value % 5 === 0) {
+  console.log ("fizzbuzz")
+} else {
+  console.log (value)
+}
 // Add your code above this line
 
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
