@@ -29,9 +29,20 @@ Use the following test cases to confirm your program meets the success criteria
    Result: 4150
 ************/
 
+// Add your code below this line
+
 console.log('Problem 1:')
 
-// Add your code below this line
+let salaryOne = 50000
+let yearsOfServiceOne = 6
+let netBonusOne = 0
+
+if(yearsOfServiceOne > 5) {
+  netBonusOne = salaryOne * 0.05
+}
+
+console.log(netBonusOne)
+
 
 // Add your code above this line
 
@@ -57,13 +68,18 @@ Use the following test cases to confirm your program meets the success criteria
 2. Given the following:
     problem1Numbers = [9, 18, 62, 3, 17]
 
-   Result: 0
+   Result: 21.8
 
 ************/
 
 console.log('Problem 2:')
 
 // Add your code below this line
+let values = [1, 2, 3]
+let sum = values.reduce((previous, current) => current += previous);
+let avg = sum / values.length;
+
+console.log(avg)
 
 // Add your code above this line
 
@@ -105,9 +121,31 @@ console.log('Problem 3:')
 
 // Add your code below this line
 
+/* psuedo code here!
+Have a for loop that goes 1-100
+Start with let = 1 and max to 100 and have it increment
+if the number is divisible by 3 then print fizz
+if the number is divisible by 5 then print buzz
+must be true  3 and 5 && logical operator
+if not default
+default */
+
+    for(let i=1;i<=100;i++){
+        if((i%3 == 0) && (i%5==0))
+            console.log("FizzBuzz")
+        else if(i%3 == 0)
+            console.log("Fizz")
+        else if(i%5 == 0)
+            console.log("Buzz")
+        else
+            console.log(i)
+     }
+
+
+
+
 // Add your code above this line
 
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
