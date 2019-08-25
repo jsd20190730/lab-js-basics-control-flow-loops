@@ -81,13 +81,13 @@ console.log('Problem 2:')
 // return numbers
 
 let problemNumbers = [1, 2, 3]
-let total = 0
+let average = 0
 
 for (i = 0; i < problemNumbers.length; i++) {
   total += (problemNumbers[i]) / problemNumbers.length
 }
 
-console.log(`The average of our array is: ${total}`)
+console.log(`The average of our array is: ${average}`)
 
 // Add your code above this line
 
