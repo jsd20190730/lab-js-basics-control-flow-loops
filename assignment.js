@@ -33,6 +33,16 @@ console.log('Problem 1:')
 
 // Add your code below this line
 
+let salary = 50000
+let yearsOfService = 6
+let netBonus = 0
+
+if (yearsOfService > 5) {
+  netBonus = (salary * 0.05)
+}
+
+console.log(`Employee 1 Bonus: ${netBonus}`)
+
 // Add your code above this line
 
 console.log('')
@@ -57,13 +67,27 @@ Use the following test cases to confirm your program meets the success criteria
 2. Given the following:
     problem1Numbers = [9, 18, 62, 3, 17]
 
-   Result: 0
+   Result: 21.8
 
 ************/
 
 console.log('Problem 2:')
 
 // Add your code below this line
+
+// create array
+// add numbers in array
+// find average of numbers
+// return numbers
+
+let problemNumbers = [1, 2, 3]
+let average = 0
+
+for (i = 0; i < problemNumbers.length; i++) {
+  average += (problemNumbers[i]) / problemNumbers.length
+}
+
+console.log(`The average of our array is: ${average}`)
 
 // Add your code above this line
 
@@ -73,7 +97,7 @@ console.log('-----------------')
 /***********
 Problem 3:
 
-Fizz buzz. Write a program that will iterate through numbers 1 to 100 and do the following:
+Fizz buzz. Write a program that will iterate through numbers 1 to 10 and do the following:
 
 - if the number is divisible by 3, print "fizz"
 - if the number is divisible by 5, print "buzz"
@@ -105,9 +129,21 @@ console.log('Problem 3:')
 
 // Add your code below this line
 
+for (var num = 0; num < 10; num++)
+  if (num % 3 == 0 && num % 5 == 0) {
+    console.log("fizzbuzz")
+  } else if (num % 3 == 0) {
+    console.log("fizz")
+  } else if (num % 5 == 0) {
+    console.log("buzz")
+  } else {
+    console.log(`${num}`)
+  }
+
+// omg i finally got it
+
 // Add your code above this line
 
 /** added for formatting purposes **/
 console.log('')
 console.log('-----------------')
-
