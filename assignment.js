@@ -84,7 +84,7 @@ let problemNumbers = [1, 2, 3]
 let average = 0
 
 for (i = 0; i < problemNumbers.length; i++) {
-  total += (problemNumbers[i]) / problemNumbers.length
+  average += (problemNumbers[i]) / problemNumbers.length
 }
 
 console.log(`The average of our array is: ${average}`)
